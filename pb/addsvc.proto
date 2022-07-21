@@ -7,7 +7,7 @@ service Add {
   // Sum two integers.
   rpc Sum(SumRequest) returns (SumReply) {}
   // Concatenates two strings
-  rpc Concat(ConcatRequest) returns(ConcatReply) {}
+  rpc Concat(ConcatRequest) returns (ConcatReply) {}
 }
 
 // The sum request contains two parameters.
